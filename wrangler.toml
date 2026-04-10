@@ -2,6 +2,11 @@ name = "cloudflare-docker-proxy"
 main = "dist/main.js"
 compatibility_date = "2023-12-01"
 
+[vars]
+CUSTOM_DOMAIN = "libcuda.so"
+MODE = "production"
+TARGET_UPSTREAM = ""
+
 [dev]
 ip = "0.0.0.0"
 port = 8787
